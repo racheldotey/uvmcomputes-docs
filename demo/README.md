@@ -104,7 +104,7 @@ Once complete, job output will be listed in the `Computational Processing Jobs` 
 
 If you have uncovered a problem please take a minute to [report it here](https://github.com/racheldotey/uvmcomputes-docs/issues/new) so we can continue improving the application. 
 
-When describing a problem be sure to include *what type of device* you have (PC/Mac/iPhone/etc..) and *what browser* (Chrome/FireFox/etc..) you were using at the time. 
+Please include the following information - What happened? What was supposed to happen? What device, and browser were you using. Check the developer console, and attatch screenshots if you can. 
 
 Providing as much detail as possible about what you we're doing when the bug occurred is greatly appreciated by the developer who will be debugging the problem. Thank you in advance! 
 
