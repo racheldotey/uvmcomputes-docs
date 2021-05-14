@@ -21,6 +21,18 @@ Read more frequently asked questions on our [website](https://www.uvmcomputes.or
 
 The fastest way to test out UVMComputes is by following the Getting Started tutorial in the [/demo/README.md](demo) directory.
 
+##  Report a bug or issue ##
+
+If you have uncovered a problem please take a minute to [report it here](https://github.com/racheldotey/uvmcomputes-docs/issues/new) so we can continue improving the application. 
+
+Please include the following information - What happened? What was supposed to happen? What device, and browser were you using. Check the developer console, and attatch screenshots if you can. 
+
+Providing as much detail as possible about what you we're doing when the bug occurred is greatly appreciated by the developer who will be debugging the problem. Thank you in advance! 
+
+##  Feedback ##
+
+We are always open to your [feedback](https://github.com/racheldotey/uvmcomputes-docs/issues).
+
 ## Who is behind this project? ##
 
   UVM Computer Science professor Josh Bongard is the research lead and can be reached at jbongard@uvm.edu. 
