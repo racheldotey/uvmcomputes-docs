@@ -1,5 +1,5 @@
-<h1 align="center">#UVMComputes</h1>
-<p align="center"><a href="https://uvmcomputes.org" target="_blank">uvmcomputes.org</a></p>
+# #UVMComputes #
+> Visit the homepage —https://uvmcomputes.org
 
 The worlds first in-browser elastic supercomputer.
 
@@ -18,14 +18,12 @@ Read more frequently asked questions on our [website](https://www.uvmcomputes.or
 
 ## Try #UVMComputes ##
 
-The fastest way to test out UVMComputes is by following the Getting Started tutorial in the /demo directory.
+The fastest way to test out UVMComputes is by following the Getting Started tutorial in the [/demo/README.md](demo) directory.
 ## Who is behind this project? ##
 
-UVM Computer Science professor Josh Bongard is the research lead and can be reached at jbongard@uvm.edu. 
-
-Andrea Elledge is the operations lead and can be reached at aelledge@uvm.edu. 
-
-Rachel Dotey is the software developer and can be reached at rdotey@uvm.edu.
+ - UVM Computer Science professor Josh Bongard is the research lead and can be reached at jbongard@uvm.edu. 
+ - Andrea Elledge is the operations lead and can be reached at aelledge@uvm.edu. 
+ - Rachel Dotey is the software developer and can be reached at rdotey@uvm.edu.
 
 ## License ##
 
