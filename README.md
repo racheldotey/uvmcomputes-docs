@@ -23,7 +23,7 @@ The fastest way to test out UVMComputes is by following the Getting Started tuto
 
  - UVM Computer Science professor Josh Bongard is the research lead and can be reached at jbongard@uvm.edu. 
  - Andrea Elledge is the operations lead and can be reached at aelledge@uvm.edu. 
- - Rachel Dotey is the software developer and can be reached at rdotey@uvm.edu.
+ - Rachel Dotey is the lead developer and can be reached at rdotey@uvm.edu.
 
 ## License ##
 
