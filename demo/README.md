@@ -74,19 +74,19 @@ After selecting your Python file click `Create a Job` to add a new job with defa
 
 ###  What is going on under the hood? ###
 
-When you upload a program, #UVMComputes loads your .py into memory and creates one or more jobs using that app. Your job(s) are given priority to run first on your device and are added to your queue. The status of the job is updated as it progresses through the queue and being processed. 
+ - When you upload a program, #UVMComputes loads your .py into memory and creates one or more jobs using that app. Your job(s) are given priority to run first on your device and are added to your queue. The status of the job is updated as it progresses through the queue and being processed. 
 
-Once ready, the #UVMComputes processor selects the next job from the queue. That job Python is loaded into memory, verified, and settings are initialized for the job execution. 
+ - Once ready, the #UVMComputes processor selects the next job from the queue. That job Python is loaded into memory, verified, and settings are initialized for the job execution. 
 
-The Pyodide runtime is initialized if it hasn't been already (setup on the first run). Pyodide is fed the job .py application. Pyodide is responsible for executing the Python code and supplying output. 
+ - The Pyodide runtime is initialized if it hasn't been already (setup on the first run). Pyodide is fed the job .py application. Pyodide is responsible for executing the Python code and supplying output. 
 
-The #UVMComputes processor takes the output from Pyodide. Verifies that it executed successfully. If an error did occur, it saves the error as the job output, and sets the status to `Error`. 
+ - The #UVMComputes processor takes the output from Pyodide. Verifies that it executed successfully. If an error did occur, it saves the error as the job output, and sets the status to `Error`. 
 
 > *Remember that all "saving" is temporary and local only.*
 
-If running the application was successful #UVMComputes marks job as complete, saves the output, and sets the status to `Complete`. The user will be able to watch the status change in the `Computational Processing Jobs` table. Once complete the output will be available for download by a link.
+ - If running the application was successful #UVMComputes marks job as complete, saves the output, and sets the status to `Complete`. The user will be able to watch the status change in the `Computational Processing Jobs` table. Once complete the output will be available for download by a link.
 
-As long as there are jobs in the queue, #UVMComputes will continue to process each one by one before requesting more from the central queue.
+ - As long as there are jobs in the queue, #UVMComputes will continue to process each one by one before requesting more from the central queue.
 
 > *Remember that job processing local only. Your jobs wont run if you aren't on the alpha.uvmcomputes.org*
 
@@ -104,7 +104,7 @@ Once complete, job output will be listed in the `Computational Processing Jobs` 
 
 If you have uncovered a problem please take a minute to [report it here](https://github.com/racheldotey/uvmcomputes-docs/issues/new) so we can continue improving the application. 
 
-When describing a problem be sure to include *what type of device* you have (PC/Mac/iPhone/etc..) and *what browser* (Chrome/FireFox/etc..) you were using at the time. 
+Please include the following information - What happened? What was supposed to happen? What device, and browser were you using. Check the developer console, and attatch screenshots if you can. 
 
 Providing as much detail as possible about what you we're doing when the bug occurred is greatly appreciated by the developer who will be debugging the problem. Thank you in advance! 
 
